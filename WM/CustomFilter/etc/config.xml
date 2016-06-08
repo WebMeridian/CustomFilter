@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <WM_CustomFilter>
+            <version>0.1.0</version>
+        </WM_CustomFilter>
+    </modules>
+    <global>
+        <blocks>
+            <wm_customfilter>
+                <class>WM_CustomFilter_Block</class>
+            </wm_customfilter>
+            <catalog>
+                <rewrite>
+                    <layer_view>WM_CustomFilter_Block_View</layer_view>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <wm_customfilter>
+                <class>WM_CustomFilter_Helper</class>
+            </wm_customfilter>
+        </helpers>
+        <models>
+            <wm_customfilter>
+                <class>WM_CustomFilter_Model</class>
+            </wm_customfilter>
+        </models>
+    </global>
+</config>
